@@ -18,7 +18,7 @@ export const Home = () => {
       <Box
         sx={{
           display: "flex",
-          backgroundColor: "background.paper",
+          backgroundColor: "background.default",
           justifyContent: "center",
           alignItems: "center",
           height: "30vh",
