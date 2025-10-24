@@ -48,7 +48,7 @@ export const Header = () => {
           </IconButton>
           <IconButton
             onClick={() => navigate('/')}>
-            <FoodBankOutlinedIcon color="primary"/>
+            <FoodBankOutlinedIcon color="primary" sx={{fontSize: "3rem"}}/>
           </IconButton>
 
           <Menu
