@@ -21,9 +21,9 @@ export const theme = createTheme({
       paper: '#333333',
     },
     text: {
-      primary: 'rgba(235,235,235,0.64)',
-      secondary: 'rgba(255, 255, 255, 0.7)',
-      disabled: 'rgba(255, 255, 255, 0.5)'
+      primary: 'rgba(211,211,211,1)',
+      secondary: 'rgba(160,160,160,0.7)',
+      disabled: 'rgba(110,110,110,0.5)'
     },
     error: {
       main: '#e57373',

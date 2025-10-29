@@ -33,6 +33,7 @@ export const Order = () => {
         <TextField
           required
           label={usePhone ? 'Phone' : 'Email'}
+          type={usePhone ? 'tel' : 'email'}
           value={emailOrPhone}
           onChange={(e) => setEmailOrPhone(e.target.value)}/>
         <Button variant="contained" onClick={handleSubmit}>

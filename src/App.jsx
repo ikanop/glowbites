@@ -10,7 +10,8 @@ function App() {
   return (
     <Box
       sx={{
-        bgcolor: 'background.default', minHeight: '100vh',
+        bgcolor: 'background.default',
+        minHeight: '100vh',
       }}>
       <Header/>
       <Box>
